@@ -37,10 +37,10 @@ env:
 matrix:
   include:
   # Environment to deploy project on PyPI.
-  - python: "3.5"
+  - python: "3.6"
     env: DEPLOY_ENV=1
 
-  - python: "3.5"
+  - python: "3.6"
     env: TYPE=lint
 
 # Deploy on PyPI all tagged build on master branch.
