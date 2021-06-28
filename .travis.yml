@@ -1,5 +1,6 @@
 language: python
 python:
+- 3.5
 - 3.6
 
 # TODO: Use Travis apt addon, when chromium-chromedriver will be supported
@@ -37,10 +38,10 @@ env:
 matrix:
   include:
   # Environment to deploy project on PyPI.
-  - python: "3.6"
+  - python: "3.5"
     env: DEPLOY_ENV=1
 
-  - python: "3.6"
+  - python: "3.5"
     env: TYPE=lint
 
 # Deploy on PyPI all tagged build on master branch.
