@@ -1,6 +1,5 @@
 language: python
 python:
-- 3.6
 - 3.7
 
 arch:
@@ -42,8 +41,8 @@ env:
 matrix:
   include:
   # Environment to deploy project on PyPI.
-  - python: "3.6"
-    env: DEPLOY_ENV=1
+  #- python: "3.6"
+  #  env: DEPLOY_ENV=1
   
   - python: "3.7"
     env: DEPLOY_ENV=1
